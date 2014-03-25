@@ -1,0 +1,30 @@
+﻿.flexboxBlock {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.flexboxInline {
+  display: -webkit-flex-inline;
+  display: -moz-flex-inline;
+  display: -ms-flex-inlinebox;
+  display: -ms-flex-inline;
+  display: flex-inline;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.round {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.padding-4 {
+  padding: 4px !important;
+}

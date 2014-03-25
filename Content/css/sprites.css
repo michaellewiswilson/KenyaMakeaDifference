@@ -1,0 +1,250 @@
+﻿/* Create a Parametric mixin and add a guard operation */
+/* the mixin is called, css outputted and iterations called */
+.sprite2012 {
+  background: url('/Content/Images/2012 photos/sprite.png') no-repeat;
+}
+.sprite-10-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -324px -324px;
+}
+.sprite-11-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -243px -324px;
+}
+.sprite-12-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -162px -324px;
+}
+.sprite-13-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -81px -324px;
+}
+.sprite-14-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: 0px -324px;
+}
+.sprite-15-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -324px -243px;
+}
+.sprite-16-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -324px -162px;
+}
+.sprite-17-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -324px -81px;
+}
+.sprite-18-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -324px 0px;
+}
+.sprite-19-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -243px -243px;
+}
+.sprite-1-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -162px -243px;
+}
+.sprite-20-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -81px -243px;
+}
+.sprite-21-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: 0px -243px;
+}
+.sprite-22-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -243px -162px;
+}
+.sprite-23-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -162px -162px;
+}
+.sprite-24-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -81px -162px;
+}
+.sprite-25-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: 0px -162px;
+}
+.sprite-2-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -243px -81px;
+}
+.sprite-3-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -162px -81px;
+}
+.sprite-4-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -81px -81px;
+}
+.sprite-5-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: 0px -81px;
+}
+.sprite-6-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -243px 0px;
+}
+.sprite-7-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -162px 0px;
+}
+.sprite-8-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: -81px 0px;
+}
+.sprite-9-2012 {
+  width: 70px;
+  height: 70px;
+  background-position: 0px 0px;
+}
+.sprite-9-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') 0px 0px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-8-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -70px 0px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-7-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -140px 0px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-6-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -210px 0px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-5-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') 0px -70px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-4-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -70px -70px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-3-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -140px -70px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-20-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -210px -70px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-2-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') 0px -140px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-19-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -70px -140px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-18-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -140px -140px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-17-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -210px -140px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-16-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') 0px -210px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-15-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -70px -210px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-14-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -140px -210px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-13-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -210px -210px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-12-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -280px 0px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-11-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -280px -70px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-10-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -280px -140px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.sprite-1-2013 {
+  background: url('/Content/Images/2013 photos/sprite.png') -280px -210px no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+}

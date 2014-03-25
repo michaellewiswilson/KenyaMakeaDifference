@@ -1,0 +1,41 @@
+<div>
+    <div id="mainPane">
+        <div id="Photos2012" class="infoBlock">
+            <h2>2012 Photos</h2>
+            <div class="row">
+                <div id="galleryWrapper"></div>
+                <div id="progressBar" class="progress">
+                    <div class="bar" style="width: 0%;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="photoWrapper">
+                    <img id="mainPhoto" class="img-thumbnail" />
+                </div>
+                <img id="nextPhoto" style="width: 0px; height: 0px;" />
+            </div>
+        </div>
+        <div id="Blog2012" class="infoBlock">
+            <ul id="blog2012TabContainer" class="nav nav-tabs">
+                <script id="blog2012TabTemplate" type="text/x-handlebars-template">
+                    {{#each this}}
+                    <li><a href="#{{id}}" data-toggle="tab">{{shortTitle}}</a></li>
+                    {{/each}}
+                </script>
+            </ul>
+            <div id="blog2012TextContainer" class='tab-content'>
+                <script id="blog2012TextTemplate" type="text/x-handlebars-template">
+                    {{#each this}}
+                    <div class="tab-pane fade active in" id="{{id}}">
+                        <h3>{{longTitle}}</h3>
+                        {{{blog}}}
+                    </div>
+                    {{/each}}
+                </script>
+            </div>
+        </div>
+        <footer>
+            Website created and maintained by Mike Wilson
+        </footer>
+    </div>
+</div>
