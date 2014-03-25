@@ -1,4 +1,5 @@
 KenyaMakeaDifference
 ====================
 
-used for the KenyaMakeADifference.com
+This space will be used for the KenyaMakeADifference.com website.
+
