@@ -1,0 +1,800 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Kenya Make a Difference?</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
+    <meta http-equiv="Pragma" content="no-cache" />
+
+    <meta http-equiv="Expires" content="0" />
+
+    <link rel="SHORTCUT ICON" href="/Content/favicon.ico">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="Content/css/flexbox.min.css">
+
+    <link rel="stylesheet" type="text/css" href="Content/css/flexslider.css">
+
+    <link rel="stylesheet" type="text/css" href="Content/css/common.min.css">
+
+    <link rel="stylesheet" type="text/css" href="Content/css/sprites.min.css">
+
+</head>
+
+<body>
+
+    <!--Dear interested developers or future employers, 
+
+
+
+    I encourage you to look through my code.  You will find great examples of the following technologies at work: 
+
+
+
+    Bootstrap v3 
+
+    Precompiled CSS - LESScss
+
+    CSS3 animations - Transit.js 
+
+    CSS3 Flexible layouts  
+
+    Icon fonts - Font Awesome
+
+    Custom fonts - with minified character sets embedded in base64
+
+    Templating - Handlebars.js
+
+    Sprite sheets 
+
+    jQuery 
+
+    Media queries 
+
+    Responsive layout - with video responsiveness 
+
+    AJAX - with correct URL routing 
+
+    Library CDNs
+
+    GZip
+
+        
+
+    yes, some of these things are a little ridiculous for a simple website, but it's the fun of implementing-->
+
+
+
+    <div id="jumbotron">
+
+        <div class="headerImage">
+
+            <div class="logoGreenLayer"></div>
+
+            <div class="headerTextContainer">
+
+                <div class="KMADFont">
+
+                    <div class="KMADQuestion">?</div>
+
+                    <div class="KMADKenya">kenya</div>
+
+                    <div class="KMADMake">make a</div>
+
+                    <div class="KMADDifference">difference</div>
+
+                </div>
+
+                <!--<div class="btn btn-success btn-default btn-lg" style="margin-top: 12px;" onclick="jumpToAnchor(event, '2014');">Apply for 2014</div>-->
+
+                <div class="headerSubTextContainer">
+
+                    <h2 class="headerSubText">Fostering communication and leadership while helping communities in need within rural Kenya
+
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <!-- <img id="map" src="Content/Images/background.jpg" />-->
+
+        </div>
+
+    </div>
+
+    <nav class="navbar navbar-default" role="navigation">
+
+        <div class="lightGreenLayer" style="height: 50px;">
+
+        </div>
+
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+
+                <span class="sr-only">Toggle navigation</span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+            </button>
+
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+            <ul class="nav navbar-nav">
+
+                <li class="dropdown navItem">
+
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+
+                        <span>Home</span>
+
+                        <b class="icon-caret-down"></b></a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a class="scrollPage" href="#/Home" data-anchor="Home">Home</a></li>
+
+                        <li><a class="scrollPage" href="#/Home" data-anchor="2014">2014</a></li>
+
+                        <li><a class="scrollPage" href="#/Home" data-anchor="Donate">Donate</a></li>
+
+                        <li><a class="scrollPage" href="#/Home" data-anchor="ContactUs">Contact Us</a></li>
+
+                    </ul>
+
+                </li>
+
+                <li class="dropdown navItem">
+
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+
+                        <span class="removeMe">Kenya</span>
+
+                        <span>2013</span>
+
+                        <b class="icon-caret-down"></b>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a class="scrollPage" data-anchor="Photos2013" href="#/2013Photos">Photos</a></li>
+
+                        <li><a class="scrollPage" data-anchor="Blog2013" href="#/2013Blog">Blog</a></li>
+
+                    </ul>
+
+                </li>
+
+                <li class="dropdown navItem">
+
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+
+                        <span class="removeMe">Kenya</span>
+
+                        <span>2012</span>
+
+                        <b class="icon-caret-down"></b>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a class="scrollPage" data-anchor="Photos2012" href="#/2012Photos">Photos</a></li>
+
+                        <li><a class="scrollPage" data-anchor="Blog2012" href="#/2012Blog">Blog</a></li>
+
+                    </ul>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+
+    <div id="mainPage">
+
+        <div id="mainPane">
+
+            <div id="Home" class="infoBlock">
+
+                <div class="row flexboxBlock">
+
+                    <div class="col-md-2">
+
+                        <img class="img-responsive removeMe" src="Content/Images/kenya heart.jpg" />
+
+                    </div>
+
+                    <div class="col-md-10 text-center">
+
+                        <p class="">Our hearts go out to Kenya during this time of rebuilding after the tragic event at Westgate.</p>
+
+                        <p class="">
+
+                            Although the 2014 trip will not be staying in Nairobi, it does raise great concern for us.  We will be respecting federal and university safety rules regulating travel to Kenya, putting travel safety at highest prioriry.
+
+                            Currently, we are still planning to continue with the 2014 trip, changes to this plan will be posted.
+
+                        </p>
+
+                        <p class="">We hope that Kenya will quickly return to the beautiful and peaceful country we have experienced in the past.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="row flexboxBlock">
+
+                    <div class="col-md-6">
+
+                        <p class="headerFont">
+
+                            A student-run org designed to <strong>help</strong> in-need communities within rural areas of Kenya and raise <strong>awareness</strong> about its culture
+
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <img src="/Content/Images/2013 photos/10FrontPage.jpg" alt="2013" class="img-thumbnail removeMe img-responsive">
+
+                    </div>
+
+                </div>
+
+                <div class="horizonalLine"></div>
+
+                <div class="row" style="margin-top: 0px">
+
+                    <!--<div id="three-circle-container"></div>-->
+
+                    <ul id="circleContainer" class="ch-grid">
+
+                        <script id="circleTemplate" type="text/x-handlebars-template">
+
+                            {{#each this}}
+
+                            <li class="img-thumbnail round">
+
+                                <div class="ch-item ch-img-4">
+
+                                    <div class="ch-info-wrap">
+
+                                        <div class="ch-info">
+
+                                            <div class="ch-info-front {{imageClass}}"></div>
+
+                                            <div class="ch-info-back">
+
+                                                <p>{{desc}}</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <h3>{{title}}</h3>
+
+                                {{/each}}
+
+                        </script>
+
+                    </ul>
+
+                </div>
+
+                <div class="horizonalLine"></div>
+
+                <div class="row flexboxBlock">
+
+                    <div class="col-md-4">
+
+                        <img src="/Content/Images/uwlLogo.jpg" alt="uwl" class="img-responsive removeMe" style="max-height: 150px;">
+
+                    </div>
+
+                    <div class="col-md-8" style="padding: 25px;">
+
+                        <h3>Kenya Make a Difference is an official organization at the University of Wisconsin - La Crosse</h3>
+
+                    </div>
+
+                </div>
+
+                <div class="horizonalLine"></div>
+
+                <div class="row flexboxBlock">
+
+                    <div class="col-md-6 img-thumbnail padding-4">
+
+                        <iframe width="640" height="360" src="http://www.youtube.com/embed/K8HaGAND9Bc?rel=0" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+
+                    <div class="col-md-6" style="padding: 25px;">
+
+                        <span class="imageWithCaption" style="float: right">
+
+                            <a href="http://news.uwlax.edu/student-volunteers-ask-ken-ya-make-a-difference/" target="_blank">
+
+                                <img src="/Content/Images/2012 photos/Lang.jpg" alt="Lang" class="img-thumbnail img-responsive" style="max-height: 150px;">
+
+                            </a>
+
+                            <small>Kjerstin Lang</small>
+
+                            <small>University Communications</small>
+
+                        </span>
+
+                        <p>
+
+                            "Michael Wilson and seven other college students certainly tried to make a difference when they volunteered in 
+
+                    the third-world country — at local schools, orphanages, and tribal villages" <a href="http://news.uwlax.edu/student-volunteers-ask-ken-ya-make-a-difference/" target="_blank">read more</a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div id="2014" class="infoBlock">
+
+                <div class="row">
+
+                    <div class="col-md-4 text-center">
+
+                        <img src="/Content/Images/2012 photos/20.jpg" alt="Lang" class="img-thumbnail img-responsive" style="max-height: 550px;">
+
+                    </div>
+
+                    <div class="col-md-7">
+
+                        <h2>Apply for the trip</h2>
+
+                        <div style="margin: 30px">
+
+                            <p>
+
+                                We have accepted our group for January 2014.  Thank you to all those who applied.
+
+                            </p>
+
+                            <!--<p>
+
+                                Trip will approximately take place from the week of Dec 29th - Jan 18th.
+
+                            </p>
+
+                            <h4 style="margin-top: 40px;">Candidates should be</h4>
+
+                            <ul>
+
+                                <li>able to work well in a team environment </li>
+
+                                <li>willing to work to achieve a common goal </li>
+
+                                <li>ready to promote equality of people from different backgrounds </li>
+
+                                <li>eager to help the organization in future trips</li>
+
+                            </ul>
+
+
+
+                            <h4 class="largeTextBlock" style="margin-top: 50px;">
+
+                                <div>
+
+                                    Please download application and return
+
+                                    <br />
+
+                                    to 1209 Centennial Hall by Oct 15
+
+                                </div>
+
+                                <a href="https://dl.dropboxusercontent.com/s/lbatlh7t32b8ijy/Application.zip?token_hash=AAECw_NLJJU32Mq2Uvb6yP-BAnTbIBxewlzl5iKPBNr-HA&dl=1" class="btn btn-default btn-success btn-lg">Download Application</a>
+
+                            </h4>-->
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="horizonalLine"></div>
+
+
+
+            <div id="Donate" class="infoBlock">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <h2 style="margin-top: 0px">Make a Donation</h2>
+
+                        <p>
+
+                            All proceeds go directly to empower in-need schools and families with education, training, and
+
+                        funding to pull themselves out of poverty in rural areas outside Nakuru, Kenya.
+
+                        </p>
+
+                        <div id="donateBoxes">
+
+                            <div>
+
+                                <script type="text/javascript">
+
+                                    function validateAmount(amount) {
+
+                                        if (amount.value.match(/^[0-9]+(\.([0-9]+))?$/)) {
+
+                                            return true;
+
+                                        } else {
+
+                                            alert('You must enter a valid donation.');
+
+                                            amount.focus();
+
+                                            return false;
+
+                                        }
+
+                                    }
+
+                                </script>
+
+                                <label>Google Checkout</label>
+
+                                <form action="https://checkout.google.com/cws/v2/Donations/576939347633728/checkoutForm" id="BB_BuyButtonForm" style="margin-bottom: 0px;" method="post" name="BB_BuyButtonForm" onsubmit="return validateAmount(this.item_price_1)" target="_top">
+
+                                    <input name="item_name_1" type="hidden" value="Donate to Kenya Make A Difference?" />
+
+                                    <input name="item_description_1" type="hidden" value="All proceeds go directly to empower in-need schools and families with education, training, and funding to pull themselves out of poverty in rural areas outside Nakuru, Kenya." />
+
+                                    <input name="item_quantity_1" type="hidden" value="1" />
+
+                                    <input name="item_currency_1" type="hidden" value="USD" />
+
+                                    <input name="item_is_modifiable_1" type="hidden" value="true" />
+
+                                    <input name="item_min_price_1" type="hidden" value="0.01" />
+
+                                    <input name="item_max_price_1" type="hidden" value="25000.0" />
+
+                                    <input name="_charset_" type="hidden" value="utf-8" />
+
+                                    <table cellpadding="5" cellspacing="0" width="1%">
+
+                                        <tr>
+
+                                            <td class="input-prepend" align="right" nowrap="nowrap" width="1%">
+
+                                                <span class="add-on">$</span>
+
+                                                <input id="item_price_1" name="item_price_1" onfocus="this.style.color='black'; this.value='';" size="6" type="text" value="5.00" />
+
+                                            </td>
+
+                                            <td align="left" width="1%">
+
+                                                <input alt="Donate" src="https://checkout.google.com/buttons/donateNow.gif?merchant_id=576939347633728&w=115&h=50&style=white&variant=text&loc=en_US" type="image" />
+
+                                            </td>
+
+                                        </tr>
+
+                                    </table>
+
+                                </form>
+
+                            </div>
+
+                            <div>
+
+                                <label>Paypal</label>
+
+
+
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+                                    <div class="input-prepend">
+
+                                        <span class="add-on">$</span>
+
+                                        <input type="text" placeholder="5.00">
+
+                                    </div>
+
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+
+                                    <input type="hidden" name="hosted_button_id" value="GBSCGZE4A6H5L">
+
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+                                </form>
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <img src="/Content/Images/2012 photos/23.jpg" alt="Lang" class="img-thumbnail img-responsive">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="horizonalLine"></div>
+
+
+
+            <div id="ContactUs" class="infoBlock">
+
+                <div class="row">
+
+                    <div class="col-md-4">
+
+                        <h2 style="margin-top: 0px; margin-bottom: 20px;">Contact Us</h2>
+
+                        <form id="Form1" target="_self" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/GD6blAeb5M4uNx8XRdTZf" name="emf-form">
+
+                            <div class="input-prepend">
+
+                                <span class="add-on">Name</span>
+
+                                <input class="" id="element_0" name="element_0" type="text">
+
+                            </div>
+
+                            <div class="input-prepend">
+
+                                <span class="add-on">Email</span>
+
+                                <input class="" id="element_1" name="element_1" type="text">
+
+                            </div>
+
+                            <div>Comment</div>
+
+                            <textarea id="Textarea1" name="element_2" style="width: 260px" cols="41" rows="5" class="validate[required]"></textarea>
+
+                            <div>
+
+                                <input name="element_counts" value="3" type="hidden" />
+
+                                <input name="embed" value="forms" type="hidden" />
+
+                                <input value="Send" class="btn btn-primary" type="submit" />
+
+                                <input value="Clear" type="reset" class="btn" />
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div class="col-md-5 text-center">
+
+                        <img src="/Content/Images/2013 photos/People/KaliS.jpg" alt="Kali" class="img-thumbnail img-responsive removeMe">
+
+                    </div>
+
+                    <div class="col-md-2">
+
+                        <div id="officersContainer" class="paragraph" style="text-align: left;">
+
+                            <script id="officersTemplate" type="text/x-handlebars-template">
+
+                                {{#each this}}
+
+                                <strong>{{title}}:</strong>
+
+                                <div>{{name}}</div>
+
+                                <ul>
+
+                                    {{#if email}}
+
+                                    <li>
+
+                                        <a href="mailto:{{email}}">Email</a>
+
+                                    </li>
+
+                                    {{/if}}
+
+                                    {{#if facebook}}
+
+                                    <li>
+
+                                        <a href="https://www.facebook.com/{{facebook}}" target="_blank">Facebook</a>
+
+                                    </li>
+
+                                    {{/if}}
+
+                                </ul>
+
+                                {{/each}}
+
+                            </script>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <footer>
+
+                Website created and maintained by <a rel="author" href="https://plus.google.com/u/0/110548856997776030735?rel=author">Michael Wilson</a>
+
+            </footer>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.1/jquery.flexslider-min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/galleria/1.2.9/galleria.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js"></script>
+
+    <script src="Scripts/router.min.js"></script>
+
+    <script src="Scripts/routes.min.js"></script>
+
+    <script src="Scripts/templateData.min.js"></script>
+
+    <script src="Scripts/clickHandlers.min.js"></script>
+
+    <script src="Scripts/imageHandler.min.js"></script>
+
+
+
+    <script>
+
+
+
+        (function () {
+
+            $("#circleContainer").append(Handlebars.compile($("#circleTemplate").html())(circleText));
+
+            $("#officersContainer").append(Handlebars.compile($("#officersTemplate").html())(officersText));
+
+        })();
+
+
+
+        $(window).scroll(function () {
+
+            if (document.documentElement.scrollTop >= $("#jumbotron").height() - 50 || window.pageYOffset >= $("#jumbotron").height() - 50 + 1) {
+
+                $(".navbar").addClass("affix-top");
+
+                $("#mainPane").css("margin-top", "30px");
+
+            } else if (document.documentElement.scrollTop < $("#jumbotron").height() - 50 || window.pageYOffset < $("#jumbotron").height() - 50 + 1) {
+
+                $(".navbar").removeClass("affix-top");
+
+                $("#mainPane").css("margin-top", "");
+
+            }
+
+        });
+
+
+
+        $(".scrollPage").click(function (event) {
+
+            jumpToAnchor(event, $(this).attr("data-anchor"));
+
+        });
+
+
+
+        activePage = "index";
+
+
+
+        $("#Home").fitVids();
+
+    </script>
+
+
+
+    <script>
+
+        //Google Analytics
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+                (i[r].q = i[r].q || []).push(arguments)
+
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-44419232-1', 'kenyamakeadifference.com');
+
+        ga('send', 'pageview');
+
+    </script>
+
+</body>
+
+</html>
+
